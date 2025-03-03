@@ -10,12 +10,7 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) application for manag
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -49,39 +44,6 @@ The **MERN Employee Management System** is designed to streamline employee and d
 - **Backend**: Node.js, Express.js, Mongoose, JWT, Bcrypt
 - **Database**: MongoDB
 - **Tools**: MongoDB Compass, Postman (for testing), Git
-
----
-
-## Project Structure
-
-mern-employee-management/
-├── client/ # React frontend
-│ ├── src/
-│ │ ├── components/ # Reusable components (Login, Signup)
-│ │ │ ├── Login.js
-│ │ │ ├── Signup.js
-│ │ │ └── _.css
-│ │ ├── pages/ # Page components (dashboards)
-│ │ │ ├── EmployeeDashboard.js
-│ │ │ ├── ManagerDashboard.js
-│ │ │ └── _.css
-│ │ ├── App.js # Main app with routing
-│ │ └── index.js # Entry point
-├── server/ # Node.js backend
-│ ├── models/ # Mongoose schemas
-│ │ ├── User.js
-│ │ └── Department.js
-│ ├── routes/ # API routes
-│ │ ├── auth.js
-│ │ ├── department.js
-│ │ └── employee.js
-│ ├── middleware/ # Authentication middleware
-│ │ └── auth.js
-│ ├── server.js # Express server setup
-│ └── .env # Environment variables (not tracked)
-├── .gitignore # Git ignore file
-├── README.md # Project documentation
-└── package.json # Root dependencies
 
 ---
 
