@@ -1,0 +1,68 @@
+/* Login.css */
+.login-container {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .login-card {
+    border: none;
+    border-radius: 20px;
+    background: #ffffff;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .login-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  h2 {
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .form-control {
+    border: 2px solid #e0e0e0;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #667eea;
+    box-shadow: none;
+  }
+  
+  .btn-primary {
+    background-color: #667eea;
+    border: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5a67d8;
+  }
+  
+  a.text-primary {
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  a.text-primary:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    .login-card {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .btn-primary {
+      font-size: 0.9rem;
+    }
+  }

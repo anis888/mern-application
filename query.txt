@@ -1,0 +1,61 @@
+Query 1: Employees in IT Department with Location Starting with 'A'
+
+db.users.aggregate([
+  {
+    $lookup: {
+      from: "departments",
+      localField: "departmentId",
+      foreignField: "_id",
+      as: "department"
+    }
+  },
+  {
+    $unwind: "$department"
+  },
+  {
+    $match: {
+      "department.categoryName": "IT",
+      "department.location": { $regex: /^A/i }
+    }
+  },
+  {
+    $replaceRoot: { newRoot: "$$ROOT" }
+  },
+  {
+    $unset: "department"
+  }
+]);
+
+
+Query 2: Employees in Sales Department in Descending Order of Name
+
+db.users.aggregate([
+  {
+    $lookup: {
+      from: "departments",
+      localField: "departmentId",
+      foreignField: "_id",
+      as: "department"
+    }
+  },
+  {
+    $unwind: "$department"
+  },
+  {
+    $match: {
+      "department.categoryName": "Sales"
+    }
+  },
+  {
+    $sort: {
+      lastName: -1,
+      firstName: -1
+    }
+  },
+  {
+    $replaceRoot: { newRoot: "$$ROOT" }
+  },
+  {
+    $unset: "department"
+  }
+]);

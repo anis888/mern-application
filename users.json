@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "67c1f800a9709166bf4439a5"
+  },
+  "firstName": "Alice",
+  "lastName": "Johnson",
+  "gender": "female",
+  "hobbies": [
+    "painting",
+    "cycling"
+  ],
+  "email": "alice.johnson@example.com",
+  "password": "$2b$10$examplehashedpassword1234567890",
+  "role": "employee",
+  "departmentId": {
+    "$oid": "67c20a562309a0b1e1b81b17"
+  }
+},{
+  "_id": {
+    "$oid": "67c1f82da9709166bf4439a7"
+  },
+  "firstName": "Anis",
+  "lastName": "Gupta",
+  "gender": "male",
+  "hobbies": [
+    "reading",
+    "traveling"
+  ],
+  "email": "bob.smith@example.com",
+  "password": "$2b$10$examplehashedpassword0987654321",
+  "role": "manager",
+  "departmentId": null
+},{
+  "_id": {
+    "$oid": "67c1fabb7bf82ee5fc0cfc81"
+  },
+  "firstName": "manish",
+  "lastName": "gupta",
+  "gender": "male",
+  "hobbies": [
+    "kabaddi"
+  ],
+  "email": "manish@123gmail.com",
+  "password": "$2b$10$ZJGeyJMAlBQurgilfcVFfe.fyL11XVrrEyt5lVR4kExSGsyAzPJRS",
+  "role": "manager",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67c206cf7bf82ee5fc0cfcba"
+  },
+  "firstName": "ajay",
+  "lastName": "gupta",
+  "gender": "male",
+  "hobbies": [
+    "game",
+    "racing"
+  ],
+  "email": "ajay123@gmail.com",
+  "password": "$2b$10$HLP9WN1nho42D2FSQJxNpe6uEMARSTVcxQvOWxi0.GecosaFiivYG",
+  "role": "employee",
+  "__v": 0,
+  "departmentId": {
+    "$oid": "67c20aef2309a0b1e1b81b1d"
+  }
+}]

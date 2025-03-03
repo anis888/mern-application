@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "67c1f88fa9709166bf4439aa"
+  },
+  "departmentName": "Google IT Soln Pvt",
+  "categoryName": "IT",
+  "location": "Aurangabad",
+  "salary": 50000,
+  "employeeIds": [
+    "507f1f77bcf86cd799439011"
+  ],
+  "createdBy": "507f191e810c19729de860ea"
+},{
+  "_id": {
+    "$oid": "67c1f8aba9709166bf4439ac"
+  },
+  "departmentName": "Walmart Sales",
+  "categoryName": "Sales",
+  "location": "Ahmedabad",
+  "salary": 45000,
+  "employeeIds": [],
+  "createdBy": "507f191e810c19729de860ea"
+},{
+  "_id": {
+    "$oid": "67c1fb5b7bf82ee5fc0cfc87"
+  },
+  "departmentName": "HR",
+  "categoryName": "Human Resource",
+  "location": "mumbai",
+  "salary": 65000,
+  "employeeIds": [],
+  "createdBy": {
+    "$oid": "67c1fabb7bf82ee5fc0cfc81"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67c20a562309a0b1e1b81b17"
+  },
+  "departmentName": "testing department",
+  "categoryName": "IT",
+  "location": "pune",
+  "salary": 40000,
+  "employeeIds": [
+    {
+      "$oid": "67c1f800a9709166bf4439a5"
+    }
+  ],
+  "createdBy": {
+    "$oid": "67c1fabb7bf82ee5fc0cfc81"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67c20aef2309a0b1e1b81b1d"
+  },
+  "departmentName": "Analysis Department",
+  "categoryName": "Product",
+  "location": "delhi",
+  "salary": 59997,
+  "employeeIds": [
+    {
+      "$oid": "67c206cf7bf82ee5fc0cfcba"
+    }
+  ],
+  "createdBy": {
+    "$oid": "67c1fabb7bf82ee5fc0cfc81"
+  },
+  "__v": 0
+}]

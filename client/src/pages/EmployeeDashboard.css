@@ -1,0 +1,141 @@
+/* EmployeeDashboard.css */
+.dashboard-wrapper {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sidebar-card {
+  border: none;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.sidebar-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-icon {
+  color: #667eea;
+  transition: color 0.3s ease;
+}
+
+.sidebar-card:hover .profile-icon {
+  color: #5a67d8;
+}
+
+.info-card {
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #2d3748;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.card-text strong {
+  color: #1a202c;
+  font-weight: 600;
+}
+
+.info-card:hover .card-text {
+  color: #2d3748;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  padding: 15px 0;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ddd !important;
+}
+
+.btn-primary {
+  background-color: #667eea;
+  border: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5a67d8;
+  transform: scale(1.05);
+}
+
+.btn-outline-secondary {
+  border-color: #667eea;
+  color: #667eea;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #667eea;
+  color: #fff;
+}
+
+.text-muted {
+  color: #718096 !important;
+  font-size: 0.9rem;
+}
+
+h4 {
+  color: #2d3748;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sidebar-card {
+    margin-bottom: 20px;
+  }
+
+  .info-card {
+    margin-bottom: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+  }
+}
