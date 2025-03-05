@@ -59,35 +59,26 @@ The **MERN Employee Management System** is designed to streamline employee and d
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/<your-username>/mern-employee-management.git
-   cd mern-employee-management
+   git clone https://github.com/anis888/mern_app.git
+   cd mern_app
    ```
 2. **Install Dependencies**
+
    ```
    cd server
    npm install
    ```
+
    ```
    cd ../client
    npm install
    ```
-3. **Create a .env file in the server/ directory**
 
-   ```
-   PORT=5000
-   MONGO_URI=mongodb://localhost:27017/mern_app
-   JWT_SECRET=your-secret-key-here
-   ```
-
-4. **start mongodb**
-   ```
-   mongod
-   ```
-5. **Start the Application**
+3. **Start the Application**
 
    ```
    cd server
-   npm start
+   node server.js
    ```
 
    ```
@@ -95,5 +86,5 @@ The **MERN Employee Management System** is designed to streamline employee and d
    npm start
    ```
 
-6. **Access the Application**
+4. **Access the Application**
    `http://localhost:3000`
