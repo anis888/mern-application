@@ -1,7 +1,7 @@
 // /server/routes/employee.js
 const express = require("express");
 const router = express.Router();
-const auth = require("../middleware/Auth");
+const auth = require("../middleware/auth");
 const User = require("../models/User");
 const Department = require("../models/Department");
 
